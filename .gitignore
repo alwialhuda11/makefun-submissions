@@ -1,0 +1,19 @@
+# secrets & credentials
+makefun-keypair.json
+**/.makefun/*.key
+*.pem
+*.key
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# build artifacts (keep source only)
+btc-race/node_modules/
+github-core-clone/node_modules/
+threejs-fps/node_modules/
+*.log
